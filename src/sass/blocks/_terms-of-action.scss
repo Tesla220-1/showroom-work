@@ -59,6 +59,14 @@
             top: 7px;
         }
     }
+    &__col-link {
+        color: $bank-color;
+        text-decoration: none;
+        a {
+            color: $bank-color;
+            text-decoration: none;
+        }
+    }
 }
 
 #col-item-left-1 {

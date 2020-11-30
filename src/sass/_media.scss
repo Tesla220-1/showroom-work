@@ -13,6 +13,10 @@
         &__chart {
             display: none;
         }
+        &__mobile {
+            display: flex;
+            flex-wrap: wrap;
+        }
     }
 
     .terms-of-action {
@@ -25,6 +29,12 @@
 @media (max-width: 768px) {
     .container {
         width: 540px;
+    }
+
+    .action {
+        &__mobile-item {
+            font-size: 14px;
+        }
     }
 
     .terms-of-action {
@@ -60,6 +70,24 @@
 @media (max-width: 576px) {
     .container {
         width:100%;
+    }
+
+    .action {
+        &__mobile {
+            flex-wrap: wrap;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        &__mobile-item {
+            width: 45%;
+            margin-top: 20px;
+            &:first-child {
+                margin-top: 0;
+            }
+            &:nth-child(2) {
+                margin-top: 0;
+            }
+        }
     }
 
     .terms-of-action {

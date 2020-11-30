@@ -1,0 +1,15 @@
+.action {
+    margin-top: 40px;
+    &__title {
+        margin: 0;
+        text-align: center;
+        color: $bank-color;
+        font-size: 30px;
+    }
+    &__subtitle {
+        margin: 0;
+        text-align: center;
+        margin-top: 30px;
+        font-size: 20px;
+    }
+}

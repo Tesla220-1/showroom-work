@@ -9,6 +9,12 @@
         width: 720px;
     }
 
+    .action {
+        &__chart {
+            display: none;
+        }
+    }
+
     .terms-of-action {
         &__col-cards {
             width: 352px;

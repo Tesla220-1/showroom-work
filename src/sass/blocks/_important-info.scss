@@ -1,0 +1,18 @@
+.important-info {
+    margin-top: 55px;
+    &__title {
+        text-align: center;
+        font-size: 25px;
+    }
+    &__strong-text {
+        margin: 0;
+        margin-top: 24px;
+        font-size: 17px;
+        line-height: 22px;
+        font-weight: bold;
+    }
+    &__text {
+        margin: 0;
+        margin-top: 24px;
+    }
+}
